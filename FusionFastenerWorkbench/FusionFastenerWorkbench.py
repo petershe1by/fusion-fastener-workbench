@@ -3,6 +3,7 @@
 from dataclasses import dataclass
 from html import escape
 from math import isfinite
+from pathlib import Path
 import traceback
 
 import adsk.core as core
@@ -13,7 +14,8 @@ from . import catalog, fusion_model
 
 COMMAND_ID = "InitialFusionFastenerWorkbench"
 PANEL_ID = "SolidCreatePanel"
-TITLE = "紧固件工坊"
+TITLE = "紧固件工坊 · Peter Shelby"
+ICON_FOLDER = Path(__file__).resolve().parent / "resources" / "peter-shelby"
 GRID = "在模型旁排开"
 SEQUENCE = "按选孔顺序放置"
 REPEAT = "每个孔重复整批"
@@ -353,6 +355,7 @@ def run(_context):
             return
         command = ui.commandDefinitions.addButtonDefinition(
             COMMAND_ID, TITLE, "按规格和数量生成标准紧固件，支持混合批次与多孔对齐。",
+            str(ICON_FOLDER),
         )
 
         def created(args):

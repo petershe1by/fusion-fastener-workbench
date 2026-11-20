@@ -2,11 +2,12 @@
   "autodeskProduct": "Fusion360",
   "type": "addin",
   "id": "8ce75d18-29a1-4bcc-8daa-3e3496a006d0",
+  "author": "Peter Shelby",
   "description": {
-    "": "Metric fastener generator with mixed batches and circular-edge placement",
-    "2052": "紧固件工坊：生成常用公制紧固件，支持混合批次和圆孔批量放置"
+    "": "Fusion Fastener Workbench by Peter Shelby. Generate metric fasteners in batches and place them on circular edges.",
+    "2052": "Peter Shelby 的 Fusion 紧固件工坊，可批量生成公制紧固件并按圆孔放置。"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "runOnStartup": true,
   "supportedOS": "windows|mac",
   "editEnabled": true

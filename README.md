@@ -1,12 +1,14 @@
-# Fusion 紧固件工坊 · 0.1.0
+# Fusion 紧固件工坊 · Peter Shelby
 
 适用于 Autodesk Fusion 桌面版的 Python 附加模块。生成 Fusion 实体组件，可在装配中移动、添加关节和后续特征。同一批次内，相同规格共享组件定义，每件有独立的装配实例。
 
 ## 安装
 
-1. 解压发行 ZIP。保留其中的 `FusionFastenerWorkbench` 文件夹及里面的全部文件。
+1. 从 [GitHub Releases](https://github.com/petershe1by/fusion-fastener-workbench/releases) 下载 v0.1.1 安装 ZIP 并解压。保留其中的 `FusionFastenerWorkbench` 文件夹及里面的全部文件。
 2. 在 Fusion 按 `Shift+S`，打开 **脚本和附加模块**。在 **附加模块** 中点 **+ → 从设备添加**，选中包含 `FusionFastenerWorkbench.manifest` 的文件夹，然后运行。
-3. 打开 **混合设计**，从 **设计 → 实体 → 创建 → 紧固件工坊** 进入。在其他设计类型的文档中，可从 **文档设置 → 设计类型** 检查是否能切换为混合设计。
+3. 打开 **混合设计**，从 **设计 → 实体 → 创建 → 紧固件工坊 · Peter Shelby** 进入。菜单项旁有六角形 **PS** 图标。在其他设计类型的文档中，可从 **文档设置 → 设计类型** 检查是否能切换为混合设计。
+
+从 v0.1.0 升级时，先停止旧版，再用 v0.1.1 的文件替换原来加载的插件目录，然后重新启动 Fusion。
 
 ## 规格和尺寸
 
@@ -48,3 +50,7 @@
 ## 版本验证
 
 在 Windows 版 Fusion 中验证了 30 种类型的 219 个预设实体、16 组原生螺纹案例、双孔重复放置和组件实例复用。另通过 Fusion 对话框验证了塞打默认尺寸、混合清单生成、按孔选点及数量校验。
+
+## 署名与许可
+
+由 **Peter Shelby** 维护。官方版本在 Fusion 菜单、生成面板和附加模块信息中显示作者名。v0.1.1 及以上版本按 [MIT 许可证](LICENSE) 发布。再分发软件副本或其重要部分时，应保留版权和许可声明。

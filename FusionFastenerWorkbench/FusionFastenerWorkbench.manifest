@@ -1,0 +1,13 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "addin",
+  "id": "8ce75d18-29a1-4bcc-8daa-3e3496a006d0",
+  "description": {
+    "": "Metric fastener generator with mixed batches and circular-edge placement",
+    "2052": "紧固件工坊：生成常用公制紧固件，支持混合批次和圆孔批量放置"
+  },
+  "version": "0.1.0",
+  "runOnStartup": true,
+  "supportedOS": "windows|mac",
+  "editEnabled": true
+}

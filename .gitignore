@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+/FusionFastenerWorkbench-v*.zip
+/tests/fusion-smoke-result.txt
